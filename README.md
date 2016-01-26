@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Personal website using Jekyll-Bootstrap  
 http://einverne.github.io
 
@@ -24,3 +25,6 @@ http://einverne.github.io
 =======
 # einverne.github.io
 >>>>>>> 10b695958eb9cc0daf6c37b0c53947e55d0c5ef1
+=======
+# einverne.github.io
+>>>>>>> 89cc0b0c66baba874dc3f8f74b3e0ba0dd162572
