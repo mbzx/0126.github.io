@@ -6,12 +6,12 @@ title: CQ in GitHub
 <div class="row">
 	<div class="col-xs-12 col-md-8">
 	{% for post in paginator.posts %}
-		{% capture summary %}{
+		{% capture summary %}
 		{% if post.content contains "<!-- more -->" %}
   		{{ post.content | split:'<!-- more -->' | first }}
   	<!--	{% else %}
 		 {{ post.content | strip_html | truncate:50 }}-->
-		 {% endif %}}
+		 {% endif %}
 		 {% endcapture%}
 					<h1><a class="title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
 					<div class="post_at_index">
