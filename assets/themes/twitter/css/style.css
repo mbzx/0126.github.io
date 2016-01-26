@@ -32,8 +32,8 @@
 .tag_box {
   list-style: none;
   margin: 0;
-  /*overflow: hidden; */
-  overflow: auto;
+  overflow: hidden;
+  /*overflow: auto;*/
 }
 
 .tag_box li {
@@ -49,7 +49,7 @@
   padding: 3px 6px;
   margin: 2px;
   background: #eee;
-/*  color: #555;*/
+  color: #555;
   border-radius: 3px;
   text-decoration: none;
   border: 1px dashed #cccccc; }
