@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Personal website using Jekyll-Bootstrap  
 http://einverne.github.io
 
@@ -20,3 +21,6 @@ http://einverne.github.io
 1. http://einverne.github.io/ImageSlider/demo1/
 2. http://einverne.github.io/ImageSlider/demo2/
 3. http://einverne.github.io/ImageSlider/demo3/
+=======
+# einverne.github.io
+>>>>>>> 10b695958eb9cc0daf6c37b0c53947e55d0c5ef1
