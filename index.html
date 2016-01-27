@@ -6,13 +6,17 @@ title: CQ in GitHub
 <div class="row">
 	<div class="col-xs-12 col-md-8">
 	{% for post in paginator.posts %}
+	<!--摘要显示
 		{% capture summary %}
-		{% if post.content contains "<!-- more -->" %}
-  		{{ post.content | split:'<!-- more -->' | first }}
+		{% if post.content contains "<!-- more -\->" %}
+  		{{ post.content | split:'<!-- more -\->' | first }}
+  
   	<!--	{% else %}
 		 {{ post.content | strip_html | truncate:50 }}-->
-		 {% endif %}
+		 
+<!--		 {% endif %}
 		 {% endcapture%}
+	摘要显示结束	 -->
 					<h1><a class="title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
 					<div class="post_at_index">
 							{{summary}}
